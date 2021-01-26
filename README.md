@@ -6,7 +6,7 @@ To install the package, run the following code in an R console:
 
 ```
 install.packages("remotes")
-remotes::install_github("patrickvossler18/BUAD_312_data")
+remotes::install_github("BUAD312/BUAD_312_data")
 ```
 
 As with any other package, run the following to load:
@@ -14,3 +14,7 @@ As with any other package, run the following to load:
 ```
 library(buad312data)
 ```
+
+Available data sets:
+* bike_trip_data
+* stations
