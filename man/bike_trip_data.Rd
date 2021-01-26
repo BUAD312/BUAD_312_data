@@ -22,7 +22,7 @@ A data frame with 763839 rows and 26 variables:
 \item{trip_route_category}{"One Way" or "Round Trip"}
 \item{passholder_type}{Type of LA Metro pass used for the trip (e.g. "Monthly Pass", "Walk-up", "Annual Pass",
 "One Day Pass","Flex Pass", "Testing"). Testing \code{passholder_type} means that a trip was done by a Metro employee}
-\item{bike_type}{Typ of bike used on the trip (e.g. "standard","electric", "smart"). Possibly NA}
+\item{bike_type}{Type of bike used on the trip (e.g. "standard","electric", "smart"). Possibly NA}
 \item{year}{Helper date column based on \code{start_time}}
 \item{month}{Helper date column based on \code{start_time}}
 \item{day}{Helper date column based on \code{start_time}}
