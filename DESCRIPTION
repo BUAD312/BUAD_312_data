@@ -1,0 +1,21 @@
+Package: buad312data
+Title: BUAD 312 Data Package
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Jacob",
+           family = "Bien",
+           role = c("aut"),
+           email = "jbien@usc.edu"),
+    person(given = "Patrick",
+           family = "Vossler",
+           role = c("aut", "cre"),
+           email = "pvossler@usc.edu",
+           ))
+Description: This package contains some of the data sets used in the course BUAD 312: Statistics and Data Science for Business at the University of Southern California.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
