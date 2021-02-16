@@ -1,0 +1,25 @@
+#' Airbnb listings for the city of Los Angeles in 2019.
+#'
+#' A data set containing Airbnb listings scraped from Airbnb's website
+#'  in 2019. Only the columns used in class have been documented.
+#'
+#' @format A data frame with 9,812 rows and 86 variables:
+#' \describe{
+#'   \item{id}{The unique id for the listing}
+#'   \item{name}{Name of the listing provided by the host}
+#'   \item{host_id}{The unique id of the host}
+#'   \item{host_name}{Username of the host}
+#'   \item{host_since}{Date when the host first joined airbnb}
+#'   \item{host_location}{Where the host lives}
+#'   \item{host_about}{Bio provided by the host}
+#'   \item{host_response_time}{A string giving rough estimates of response time, e.g. "within a few hours"}
+#'   \item{host_response_rate}{Percentage as string of times the host responds to applicants}
+#'   \item{host_acceptance_rate}{Percentage of times the host accepts an application to stay at their listing}
+#'   \item{host_listings_count}{The number of listings the host has posted on Airbnb}
+#'   \item{host_neighborhood}{The name of the neighborhood where the host lives in their city}
+#'   \item{accommodates}{The number of people that can be hosted at the listing.}
+#'   \item{review_scores_rating}{Total rating of the listing out of 100}
+#'   \item{review_scores_accuracy:review_scores_value}{Different sub scores of the listing. Out of 10}
+#' }
+#' @source \url{http://insideairbnb.com/get-the-data.html}
+"airbnb"

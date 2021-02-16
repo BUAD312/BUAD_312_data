@@ -7,7 +7,7 @@
 make_georgia_dph_plot(georgia_data)
 }
 \arguments{
-\item{georgia_data}{The georgia_covid data set}
+\item{georgia_data}{The georgia_covid data set from the buad312data library. Expects the dataframe to have columns county, date, cases}
 }
 \value{
 ggplot object with the bar plot
